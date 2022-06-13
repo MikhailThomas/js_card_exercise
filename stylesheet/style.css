@@ -1,0 +1,32 @@
+#cover{
+    width: 150px;
+    border-radius: 50%;
+    background-position: center;
+}
+
+button{
+    width: fit-content;
+    
+}
+
+.staff-details {
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.7) 0%,
+            rgba(225, 215, 21, 0) 100%);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    opacity: 0;
+    transition: all 0.6s linear;
+}
+
+.staff:hover .staff-details {
+    opacity: 1;
+}
